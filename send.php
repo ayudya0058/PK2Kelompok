@@ -4,7 +4,11 @@ if (isset($_POST['submit'])) {
   $Alamat = $_POST['alamat'];
   $No. WhatsApp = $_POST['nowa'];
   $Instagram = $_POST['ig'];
-  header("location: https://api.whatsapp.com/send?phone=$Instagram");
+  $Hari/Tanggal = $_POST['date'];
+  $Sesi/jam = $_POST['sesi'];
+  $Item yang disewa = $_POST['Pilihan item'];
+  $no_wa = $_POST['no_wa'];
+  header("location: https://api.whatsapp.com/send?phone=$no_wa&text=Nama Lengkap:%20$name%20%");
 } else {
   echo "
   <script>window.location=history.go(-1);
