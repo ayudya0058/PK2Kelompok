@@ -9,7 +9,7 @@ li {
 
 .header {
   background-color: rgba(34,49,52,0.9);
-  color: #000000;
+  color: #FFFFFF;
   height: 90px;
 }
 
@@ -120,17 +120,18 @@ a {
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 10%;
 }
 
 .lesson-icon {
   position: relative;
+  margin-right: 10px
 }
 
 .lesson-icon p {
   position: absolute;
-  top: 90px;
-  width: 100%;
+  top: 50px;
+  width: 50%;
   color: white;
 }
 
@@ -220,7 +221,7 @@ input, textarea {
 
 .contact-submit {
   background-color: #dee7ec;
-  color: #889eab;
+  color: #000000;
 }
 
 .footer {
