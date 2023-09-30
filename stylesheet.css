@@ -127,8 +127,9 @@ a {
   position: relative;
 }
  img {
-        width: 200px;
-        height: 200px;
+   width: 200px;
+   height: 200px;
+   margin-right: 10px;
     }
 
 .lesson-icon p {
@@ -143,7 +144,7 @@ a {
   display: inline-block;
   margin-top: 20px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #000000;
 }
 
 .heading h3 {
@@ -204,11 +205,15 @@ a {
   margin-right: 40px;
 }
 img {
-        width: 300px;
-        height: 300px;
+  width: 500px;
+  height: 500px;
+  margin-right: 10px;
     }
 
 .contents-item p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
   font-size: 24px;
   margin-top: 30px;
 }
