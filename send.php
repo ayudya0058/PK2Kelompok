@@ -1,10 +1,10 @@
 <?php
 if (isset($_POST['submit'])) {
-  $name = $_POST['name'];
-  $email $_POST['email'];
-  $message = $_POST['message'];
-  $no_wa = $_POST['nowa'];
-  header("location: https://api.whatsapp.com/send?phone=$no_wa&text=Nama :%20$name %20%ØDEmail:%20$email%20%0DPesan:%20$message");
+  $Nama Lengkap = $_POST['nama'];
+  $Alamat = $_POST['alamat'];
+  $No. WhatsApp = $_POST['nowa'];
+  $Instagram = $_POST['ig'];
+  header("location: https://api.whatsapp.com/send?phone=$Instagram");
 } else {
   echo "
   <script>window.location=history.go(-1);
